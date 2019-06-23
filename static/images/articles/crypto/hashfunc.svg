@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="396.5" height="66.362" viewBox="0, 0, 396.5, 66.362">
+  <g id="Layer 1">
+    <path d="M4.25,13.088 L97.463,13.088 C99.12,13.088 100.463,14.432 100.463,16.088 L100.463,44.104 C100.463,45.761 99.12,47.104 97.463,47.104 L4.25,47.104 C2.594,47.104 1.25,45.761 1.25,44.104 L1.25,16.088 C1.25,14.432 2.594,13.088 4.25,13.088 z M4.25,13.088" fill="#AFA785" fill-opacity="0.15"/>
+    <path d="M5.25,14.112 L98.463,14.112 C100.12,14.088 101.463,15.432 101.25,17.088 L101.25,45.104 C101.463,46.761 100.12,48.104 98.463,48.112 L5.25,48.112 C3.594,48.104 2.25,46.761 2.25,45.104 L2.25,17.088 C2.25,15.432 3.594,14.088 5.25,14.112 z M5.25,14.112" fill-opacity="0" stroke="#5D5846" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <g>
+      <text transform="matrix(1, 0, 0, 1, 47.744, 30.596)">
+        <tspan x="-22.174" y="3.5" font-family="Menlo-Bold" font-size="12" fill="#5E5846">messag</tspan>
+      </text>
+      <text transform="matrix(1, 0, 0, 1, 73.037, 30.596)">
+        <tspan x="-4.112" y="3.5" font-family="Menlo-Bold" font-size="12" fill="#5E5846">e</tspan>
+      </text>
+    </g>
+    <path d="M392.266,13.088 C393.907,13.156 395.087,14.315 395.25,15.933 L395.25,44.26 C395.16,45.952 393.847,46.945 392.266,47.104 L293.384,47.104 C291.727,47.104 290.384,45.761 290.384,44.104 L290.384,16.088 C290.384,14.432 291.727,13.088 293.384,13.088 z" fill="#5D5845"/>
+    <g>
+      <text transform="matrix(1, 0, 0, 1, 339.713, 30.596)">
+        <tspan x="-11.337" y="3.5" font-family="Menlo-Bold" font-size="12" fill="#F3F2ED">has</tspan>
+      </text>
+      <text transform="matrix(1, 0, 0, 1, 354.165, 30.596)">
+        <tspan x="-4.112" y="3.5" font-family="Menlo-Bold" font-size="12" fill="#F3F2ED">h</tspan>
+      </text>
+    </g>
+    <path d="M112.361,32.294 L138.773,32.817" fill-opacity="0" stroke="#000000" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M145.771,31.976 L137.832,28.818 L137.713,34.817 z M145.771,31.976" fill="#000000"/>
+    <path d="M146.771,32.976 L138.832,29.818 L138.713,35.817 z M146.771,32.976" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+    <path d="M103.363,31.136 L111.302,34.294 L111.421,28.295 z M103.363,31.136" fill="#000000"/>
+    <path d="M104.363,32.136 L112.302,35.294 L112.421,29.295 z M104.363,32.136" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+    <path d="M251.242,32.86 L281.486,32.284" fill-opacity="0" stroke="#000000" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M288.485,31.131 L280.429,28.284 L280.543,34.283 z M288.485,31.131" fill="#000000"/>
+    <path d="M289.485,32.131 L281.429,29.284 L281.543,35.283 z M289.485,32.131" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+    <path d="M242.243,32.012 L250.299,34.859 L250.185,28.86 z M242.243,32.012" fill="#000000"/>
+    <path d="M243.243,33.012 L251.299,35.859 L251.185,29.86 z M243.243,33.012" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+    <path d="M226.077,10.883 C243.789,23.06 243.789,42.802 226.077,54.979 C208.365,67.156 179.648,67.156 161.936,54.979 C144.224,42.802 144.224,23.06 161.936,10.883 C179.648,-1.294 208.365,-1.294 226.077,10.883" fill="#FFF4D4"/>
+    <path d="M227.077,11.883 C244.789,24.06 244.789,43.802 227.077,55.979 C209.365,68.156 180.648,68.156 162.936,55.979 C145.224,43.802 145.224,24.06 162.936,11.883 C180.648,-0.294 209.365,-0.294 227.077,11.883" fill-opacity="0" stroke="#5D5846" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <g>
+      <text transform="matrix(1, 0, 0, 1, 190.894, 26.431)">
+        <tspan x="-11.337" y="3.5" font-family="Menlo-Bold" font-size="12" fill="#5E5846">has</tspan>
+      </text>
+      <text transform="matrix(1, 0, 0, 1, 205.346, 26.431)">
+        <tspan x="-4.112" y="3.5" font-family="Menlo-Bold" font-size="12" fill="#5E5846">h</tspan>
+      </text>
+    </g>
+    <g>
+      <text transform="matrix(1, 0, 0, 1, 190.894, 40.431)">
+        <tspan x="-25.786" y="3.5" font-family="Menlo-Bold" font-size="12" fill="#5E5846">functio</tspan>
+      </text>
+      <text transform="matrix(1, 0, 0, 1, 219.801, 40.431)">
+        <tspan x="-4.112" y="3.5" font-family="Menlo-Bold" font-size="12" fill="#5E5846">n</tspan>
+      </text>
+    </g>
+  </g>
+  <defs/>
+</svg>

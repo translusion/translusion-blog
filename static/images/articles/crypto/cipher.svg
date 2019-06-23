@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="396.5" height="72.032" viewBox="0, 0, 396.5, 72.032">
+  <g id="Layer 1">
+    <path d="M4.25,18.758 L97.463,18.758 C99.12,18.758 100.463,20.101 100.463,21.758 L100.463,49.774 C100.463,51.431 99.12,52.774 97.463,52.774 L4.25,52.774 C2.594,52.774 1.25,51.431 1.25,49.774 L1.25,21.758 C1.25,20.101 2.594,18.758 4.25,18.758 z M4.25,18.758" fill="#AFA785" fill-opacity="0.15"/>
+    <path d="M5.25,20.073 L98.463,20.073 C100.12,19.758 101.463,21.101 101.25,22.758 L101.25,50.774 C101.463,52.431 100.12,53.774 98.463,54.073 L5.25,54.073 C3.594,53.774 2.25,52.431 2.25,50.774 L2.25,22.758 C2.25,21.101 3.594,19.758 5.25,20.073 z M5.25,20.073" fill-opacity="0" stroke="#5D5846" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <g>
+      <text transform="matrix(1, 0, 0, 1, 47.744, 36.266)">
+        <tspan x="-22.174" y="3.5" font-family="Menlo-Bold" font-size="12" fill="#5D5846">messag</tspan>
+      </text>
+      <text transform="matrix(1, 0, 0, 1, 73.037, 36.266)">
+        <tspan x="-4.112" y="3.5" font-family="Menlo-Bold" font-size="12" fill="#5D5846">e</tspan>
+      </text>
+    </g>
+    <path d="M392.266,18.758 C393.907,18.825 395.087,19.984 395.25,21.602 L395.25,49.929 C395.16,51.621 393.847,52.615 392.266,52.774 L293.384,52.774 C291.727,52.774 290.384,51.431 290.384,49.774 L290.384,21.758 C290.451,20.004 291.714,18.926 293.384,18.758 z" fill="#5D5845"/>
+    <g>
+      <text transform="matrix(1, 0, 0, 1, 339.713, 36.266)">
+        <tspan x="-36.623" y="3.5" font-family="Menlo-Bold" font-size="12" fill="#F3F2ED">cipher tex</tspan>
+      </text>
+      <text transform="matrix(1, 0, 0, 1, 379.46, 36.266)">
+        <tspan x="-4.112" y="3.5" font-family="Menlo-Bold" font-size="12" fill="#F3F2ED">t</tspan>
+      </text>
+    </g>
+    <path d="M112.363,36.573 L152.925,36.573" fill-opacity="0" stroke="#000000" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M159.925,35.766 L151.925,32.766 L151.925,38.766 z M159.925,35.766" fill="#000000"/>
+    <path d="M160.925,36.766 L152.925,33.766 L152.925,39.766 z M160.925,36.766" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+    <path d="M103.363,35.766 L111.363,38.766 L111.363,32.766 z M103.363,35.766" fill="#000000"/>
+    <path d="M104.363,36.766 L112.363,39.766 L112.363,33.766 z M104.363,36.766" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+    <path d="M242.757,36.573 L281.484,36.573" fill-opacity="0" stroke="#000000" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M288.484,35.766 L280.484,32.766 L280.484,38.766 z M288.484,35.766" fill="#000000"/>
+    <path d="M289.484,36.766 L281.484,33.766 L281.484,39.766 z M289.484,36.766" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+    <path d="M233.757,35.766 L241.757,38.766 L241.757,32.766 z M233.757,35.766" fill="#000000"/>
+    <path d="M234.757,36.766 L242.757,39.766 L242.757,33.766 z M234.757,36.766" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+    <path d="M220.894,11.713 C234.178,24.997 234.178,46.535 220.894,59.819 C207.61,73.103 186.072,73.103 172.788,59.819 C159.504,46.535 159.504,24.997 172.788,11.713 C186.072,-1.571 207.61,-1.571 220.894,11.713" fill="#FFF4D4"/>
+    <path d="M221.894,12.713 C235.178,25.997 235.178,47.535 221.894,60.819 C208.61,74.103 187.072,74.103 173.788,60.819 C160.504,47.535 160.504,25.997 173.788,12.713 C187.072,-0.571 208.61,-0.571 221.894,12.713" fill-opacity="0" stroke="#5D5846" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <g>
+      <text transform="matrix(1, 0, 0, 1, 193.729, 36.266)">
+        <tspan x="-18.562" y="3.5" font-family="Menlo-Bold" font-size="12" fill="#5E5846">ciphe</tspan>
+      </text>
+      <text transform="matrix(1, 0, 0, 1, 215.408, 36.266)">
+        <tspan x="-4.112" y="3.5" font-family="Menlo-Bold" font-size="12" fill="#5E5846">r</tspan>
+      </text>
+    </g>
+  </g>
+  <defs/>
+</svg>

@@ -1,3 +1,53 @@
-baseURL = "http://example.org/"
+baseURL = "http://translusion.github.com/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+defaultContentLanguage = "en"
+title = "Translusion"
+theme = "solar"
+
+[taxonomies]
+  tag = "tags"
+
+[permalinks]
+  post = "/:filename/"
+
+[imaging]
+  quality = 99
+
+[params]
+    homeMetaContent = "A Hugo theme made with PaperCSS, the less formal CSS framework."
+    # For more date formats see https://gohugo.io/functions/format/
+    dateFormat = "Jan 2, 2006"
+    description =  "Erik Engheim's Projects and Articles"
+    copyright = "© Erik Engheim 2016. All rights reserved."
+    disqus = "translusion"
+    authorimage = "/images/erik.jpg"
+    
+[params.social]
+    email = "erik.engheim@mac.com"
+    twitter = "@erikengheim"
+    
+
+[[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+
+[[menu.main]]
+    name = "Blog"
+    url = "/posts/"
+    weight = 10
+
+[[menu.main]]
+    name = "Articles"
+    url = "/articles/"
+    weight = 10
+
+[[menu.main]]
+    name = "Apps"
+    url = "/apps/"
+    weight = 20
+    
+[[menu.main]]
+    name = "Maker"
+    url = "/maker/"
+    weight = 30

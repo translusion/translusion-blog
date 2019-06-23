@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>createMarkedFile</key>
+	<false/>
+	<key>sheetClusters</key>
+	<array>
+		<array>
+			<string>a_comparison_of_go_and_swift.md</string>
+		</array>
+		<array>
+			<string>america-cant-teach-the-world.md</string>
+		</array>
+		<array>
+			<string>avr_without_arduino.md</string>
+		</array>
+		<array>
+			<string>avrassembly.md</string>
+		</array>
+		<array>
+			<string>whyspace.md</string>
+		</array>
+		<array>
+			<string>beautiful-julia.md</string>
+		</array>
+		<array>
+			<string>CEO Salaries.md</string>
+		</array>
+		<array>
+			<string>debugavrproject.md</string>
+		</array>
+		<array>
+			<string>dont-starve-review.md</string>
+		</array>
+		<array>
+			<string>dont-starve-strategy.md</string>
+		</array>
+		<array>
+			<string>dulgt-intro.md</string>
+		</array>
+		<array>
+			<string>dynamic_typing_as_a_paradigm.md</string>
+		</array>
+		<array>
+			<string>europe-is-not-america.md</string>
+		</array>
+		<array>
+			<string>julia-tricks.md</string>
+		</array>
+		<array>
+			<string>learning-rails.md</string>
+		</array>
+		<array>
+			<string>munchingdata-julia.md</string>
+		</array>
+		<array>
+			<string>swift-is-kotlin.md</string>
+		</array>
+		<array>
+			<string>swift_compared_to_python.md</string>
+		</array>
+		<array>
+			<string>torture.md</string>
+		</array>
+		<array>
+			<string>avrdevboard.md</string>
+		</array>
+		<array>
+			<string>military-intention.md</string>
+		</array>
+	</array>
+</dict>
+</plist>
