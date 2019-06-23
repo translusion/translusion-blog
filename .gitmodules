@@ -1,0 +1,3 @@
+[submodule "themes/solar"]
+	path = themes/solar
+	url = https://github.com/bake/solar-theme-hugo
