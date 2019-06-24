@@ -1,53 +1,144 @@
 baseURL = "http://translusion.github.com/"
-languageCode = "en-us"
-defaultContentLanguage = "en"
 title = "Translusion"
-theme = "solar"
+# for smart copyright line, leave this blank and check [params.copyright]
+copyright = "© Erik Engheim 2016. All rights reserved."
+
+theme = "minimo"
+
+disqusShortname = "translusion"
+googleAnalytics = ""
+
+Paginate = 12
+preserveTaxonomyNames = true
+
+enableRobotsTXT = true # generate robots.txt
+
+# Syntax Highlighting ( https://gohugo.io/content-management/syntax-highlighting/ )
+pygmentsCodefences = true
+
+enableEmoji = true
+
+# Missing translations will default to this content language
+defaultContentLanguage = "en"
+
+[params.info]
+description = "Erik Engheim's Projects and Articles"
+title404 = "Nothing's here!"
+
+[params.assets]
+favicon = "favicon.ico"
+customCSS = ["css/custom.css"]
+customJS = ["js/custom.js"]
+gopher = "" # used in 404 template ( Generator: https://gopherize.me )
+
+[params.copyright]
+prefix = ""
+holder = "MunifTanjim"
+startYear = "2017"
+suffix = ""
+
+[params.settings]
+# date & time format: https://golang.org/pkg/time/
+dateFormat = "2006, Jan 02"
+listDateFormat = "2006, Jan 02"
+archiveDateFormat = "Jan 02"
+hideEntryNavigation = ["page"] # boolean / array of sections
+hideEntryMeta = ["page"] # boolean / array of sections
+showReadingTime = true
+showLastmod = true
+taxonomyCloudShuffle = true
+accentColor = "#ffcd00"
+hideMainMenu = false
+rtl = false
+
+[params.sidebar]
+enable = true
+
+[params.widgets]
+header = ["breadcrumbs"]
+homepage = ["recent_posts"]
+sidebar = ["about","search","sidebar_menu","taxonomy_cloud"]
+footer = ["social_menu"]
+
+[params.opengraph.twitter]
+page = "" # Twitter page username
+
+[params.seo]
+# Title Separator: - – — · • * ⋆ | ~ « » < >
+titleSeparator = "•"
+
+[params.social]
+email = "erik.engheim@mac.com"
+github = "ordovician"
+linkedin = "erik-engheim-b8831917"
+twitter = "erikengheim"
+youtube = "UC66PjfTxpg19YCGPUOLzyOg"
+
+[params.comments]
+enable = false
+
+
+
+[params.search]
+client = "fuse" # algolia / fuse / lunr
+
+[params.search.algolia]
+appId = ""
+indexName = ""
+searchApiKey = ""
 
 [taxonomies]
-  tag = "tags"
+author = "authors"
+category = "categories"
+series = "series"
+tag = "tags"
 
 [permalinks]
-  post = "/:filename/"
+page = "/:slug/"
 
-[imaging]
-  quality = 99
-
-[params]
-    homeMetaContent = "A Hugo theme made with PaperCSS, the less formal CSS framework."
-    # For more date formats see https://gohugo.io/functions/format/
-    dateFormat = "Jan 2, 2006"
-    description =  "Erik Engheim's Projects and Articles"
-    copyright = "© Erik Engheim 2016. All rights reserved."
-    disqus = "translusion"
-    authorimage = "/images/erik.jpg"
-    
-[params.social]
-    email = "erik.engheim@mac.com"
-    twitter = "@erikengheim"
-    
+[[menu.main]]
+    name = "Repo"
+    weight = -10
+    identifier = "repository"
+    url = "https://github.com/ordovician"
 
 [[menu.main]]
     name = "Home"
+    identifier = "home"
     url = "/"
     weight = 1
 
 [[menu.main]]
     name = "Blog"
+    identifier = "blog"
     url = "/posts/"
     weight = 10
 
 [[menu.main]]
     name = "Articles"
+    identifier = "articles"
     url = "/articles/"
     weight = 10
 
 [[menu.main]]
     name = "Apps"
+    identifier = "apps"
     url = "/apps/"
     weight = 20
     
 [[menu.main]]
     name = "Maker"
+    identifier = "maker"
     url = "/maker/"
     weight = 30
+
+
+[blackfriday]
+hrefTargetBlank = true
+
+[languages]
+# edit this block for your own language
+[languages.en]
+lang = "en"
+languageName = "English"
+weight = 1
