@@ -1,0 +1,18 @@
+{{ partial "header" . }}
+
+  <div class="content container">
+        <section id="main">
+          <h1>Apps</h1>
+          <p>A list of my iOS and OS X Apps in the App Store.</p>
+
+        </section>
+        
+        <ul class="posts">
+          {{ range .Data.Pages }}
+              {{ .Render "summary"}}
+          {{ end }}
+        </ul>
+  </div>
+
+{{ partial "footer" . }}
+

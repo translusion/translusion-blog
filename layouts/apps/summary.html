@@ -1,0 +1,14 @@
+<article class="makertopic">
+  <div class="topicimage">
+    <!-- images/maker/{{ .Params.illustration }} -->
+    
+      <img src='/images/apps/{{ .Params.illustration }}' alt="image"/>
+  </div>
+  <div class="topicsummary">
+      <header>
+        <h2 class="topicheading">
+          <a href='{{ .Permalink }}'> {{ .Title }}</a> </h2>
+      </header>
+      {{ .Description }}
+  </div>
+</article>
