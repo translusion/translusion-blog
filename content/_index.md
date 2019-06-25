@@ -1,3 +1,10 @@
+---
+menu:
+  - main
+  - sidebar
+weight: -270
+---
+
 Here you will find a collection articles, blog entries and applications I have made. There are also descriptions of ongoing projects. It is also an attempt to be a resource for fellow Norwegian [Makers][makers], such as translating english terminology to Norwegian, give tips on where to find tools, supplies and componets to do projects such as robots, arudino or other machines.
 
 ## Topics Covered
