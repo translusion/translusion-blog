@@ -46,30 +46,44 @@ The way pieces are fitted together is very different from  Lego. It is similar t
 * Much smaller community than Lego Mindstorm
 <hr>
     
-## MakerBeam
+## MakerBeam and OpenBeam
 
 A [T-slot][tnut] system for small hobby sized constructions
 
 ![alt text](/images/maker/makerbeam.jpg "MakerBeam")
 
 
-[T-slots][tnut] used in the industry is usually 20x20mm, which is impractical for a hobbyist. [MakerBeam][makerbeam] is 10x10mm which is far more practical. 
+[T-slots][tnut] used in the industry is usually 20x20mm, which is often impractical for a hobbyist. However this size dominates for 3D printer designs.
 
-It is not sold as a toy like Lego, Meccano and Fischertechnik however. Using it requires more knowledge. There are no ready made kits with instructions.[MakerBeams][makerbeam] are really just beams, brackets and screws. There are no ready made kits for building particular models. You have to buy industry standard motors, gears etc to make something usefull. 
+[MakerBeam][makerbeam] sells a variety of T-slots which are smaller than 20x20mmm. Their original beams simply called [MakerBeam][mbeamsmall] are 10x10 mm which is pratical for more detailed work.
+
+They have two types of beams which are 15x15mm, called [OpenBeam][openbeam] and [MakerBeamXL][mbeamlarge]. This is a very convenient size because it is exactly the same as standard [fischertechnik][fischertechnik] building blocks. That means one can combine with the extensive number of parts existing for the [fischertechnik][fischertechnik] building system. It means you could prototype something really fast without using any screws in [fischertechnik][fischertechnik], and once you get it working, start replacing plastic T-slots with aluminium ones.
+
+The fact that they have two types of 15x15mm slots requires some explanation. [OpenBeam][openbeam] was a separate competing product previously. While I have a bunch of [OpenBeam][openbeam] T-slots I think [MakerBeamXL][mbeamlarge] is probably a better choice today. They have threaded holes at the end so you can easily attach the ends. You don't have to tap threaded holes yourself.  
+
+What is practical with the 15x15mm T-slots [MakerBeam][makerbeam] sells is that they can be used with standard M3 nuts and bolts. A lot of T-slot systems require specialized nuts and bolts. E.g. the 10x10mm beams require special screw heads or nuts.
+
+MakerBeams are not sold with ready made kits, including instructions such as Lego, Meccano and Fischertechnik. Using it requires more knowledge. [MakerBeams][makerbeam] are really just beams, brackets and screws. You have to buy industry standard motors, gears etc to make something usefull. That is both a benefit and a downside. It means you can use parts made for the industry which is often cheaper than specialzed stuff from e.g. Lego.
 <hr>
     
-## OpenBeam
 
-MakerBeam's bigger brother
+## MakeBlock
 
-![alt text](/images/maker/openbeam.jpg "OpenBeam")
+[MakeBlock][makeblock] is the the closest thing to a modern incarnation of Meccano sets. They sell whole kits like Lego, Meccano and Fischertechnik, but which are based on combining aluminium parts with screws. 
 
-At 15x15mm [OpenBeam][openbeam] is the same size as a standard [fischertechnik][fischertechnik] building block. [OpenBeam][openbeam]'s main advantage over other forms of [T-slots][tnut] is that they have been designed to be used with regular nuts and bolts. Other T-slot systems have custom nuts and bolts which are harder to get hold of and more expensive.
+![MakeBlock](/images/maker/mblock-ranger.jpeg)
+
+One advantage of [MakeBlock][makeblock] is that they seem to be available a lot of places. There are many stores in Norway which sells them, unlike e.g. [fischertechnik][fischertechnik] which is generally quite unknown outside of Germany.
+
+It is hard to
 
 [clas]: http://www.clasohlson.no/Product/StartPageProducts.aspx?kb=kb
 
 [riktigleker]: http://www.riktigeleker.no/?page=312
 [fischertechnik]: http://www.fischertechnik.de/en/Home.aspx
 [tnut]: http://en.wikipedia.org/wiki/T-slot_nut
-[makerbeam]: http://www.makerbeam.eu
-[openbeam]: http://openbeamusa.com/index.php
+[makerbeam]: https://www.makerbeam.com
+[mbeamsmall]: https://www.makerbeam.com/makerbeam/
+[mbeamlarge]: https://www.makerbeam.com/makerbeamxl/
+[openbeam]: https://www.makerbeam.com/openbeam/
+[makeblock]: https://www.makeblock.com
