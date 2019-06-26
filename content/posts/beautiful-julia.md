@@ -1,7 +1,7 @@
 ---
-title: "Beautiful Julia: Cool language constructs and Tricks for Beginners"
+title: "Beautiful Julia: Cool Language Constructs and Tricks for Beginners"
 description: "Examples of Julia language constructs based of similarly named Python blog."
-date: "2014-12-14"
+date: "2019-06-25"
 categories: 
     - "Julia"
     - "Python"
@@ -32,14 +32,18 @@ The most obvious way is the `reverse` function
 
 But we can also do something similar to the Python example, exept Julia requires you to be a bit more explicit about the start and end of the slice
 
-     julia> a[end:-1:1]
-     3-element Array{Int64,1}:
-      4
-      2
-      1
+
+    julia> a[end:-1:1]
+    3-element Array{Int64,1}:
+     4
+     2
+     1
 
 This of course works for any types:
 
+    julia> b = (2, 3, 4)
+    (2, 3, 4)
+    
     julia> reverse(b)
     (4,3,2)
 
@@ -77,37 +81,35 @@ So when dumping the assembly with `code_native` we have to specify what the type
 
     julia> code_native(foo, (Int, Int))
     	.section	__TEXT,__text,regular,pure_instructions
-    Filename: none
-    Source line: 1
-    	push	RBP
-    	mov	RBP, RSP
-    Source line: 1
-    	movq	XMM1, RDI
-    	movq	XMM0, RSI
-    	punpcklqdq	XMM0, XMM1      ## xmm0 = xmm0[0],xmm1[0]
-    	pop	RBP
-    	ret
+    ; ┌ @ REPL[61]:1 within `foo'
+    	decl	%eax
+    	movl	%edx, (%edi)
+    	decl	%eax
+    	movl	%esi, 8(%edi)
+    	decl	%eax
+    	movl	%edi, %eax
+    	retl
+    	nopl	(%eax,%eax)
+    ; └
+
 
 If we want the bytecode like Python we get something that I consider less readable as it is LLVM based which contains a lot of type information to be able to generate efficient machien code output:
 
     julia> code_llvm(foo, (Int, Int))
 
-    define <2 x i64> @"julia_foo;20220"(i64, i64) {
+    ;  @ REPL[61]:1 within `foo'
+    define void @julia_foo_12498([2 x i64]* noalias nocapture sret, i64, i64) {
     top:
-      %2 = insertelement <2 x i64> undef, i64 %1, i32 0, !dbg !1422, !julia_type !1423
-      %3 = insertelement <2 x i64> %2, i64 %0, i32 1, !dbg !1422, !julia_type !1423
-      ret <2 x i64> %3, !dbg !1422
+      %.sroa.0.0..sroa_idx = getelementptr inbounds [2 x i64], [2 x i64]* %0, i64 0, i64 0
+      store i64 %2, i64* %.sroa.0.0..sroa_idx, align 8
+      %.sroa.2.0..sroa_idx1 = getelementptr inbounds [2 x i64], [2 x i64]* %0, i64 0, i64 1
+      store i64 %1, i64* %.sroa.2.0..sroa_idx1, align 8
+      ret void
     }
 
-This isn't obviously readable so we need to consult the [LLVM reference][llvmref] manual. [insertelement][insertelem] is instruction which insert an element into a vector at given index. 
+This isn't obviously readable so we need to consult the [LLVM reference][llvmref] manual.
 
-First part `<2 x i64>` is a type annotation saying we are operating on a 2 element 64 bit integer vector.
-  
-First argument is the vector register to operate on. In the first case that is `undef` while in the next line it is `%2`, which is where the result of the first line was put. 
-
-Second argument `i64 %1` says we are inserting a 64 bit integer element. Where is given in third argument: `i32 0`. Insert at index 0 (given as a 32 bit integer).
-
-I'll leave it as a readers excercise to figure out exactly how this performs a swap as going into the nitty bitty details of this was not the intention of this blog post.
+But a few tips to get you going. The `i64` you see dotted around is 64-bit integer type annotation. The `%1` and `%2` refers to the function arguments. They are numbered rather than using name aliases. 
 
 ### Enumerate
 
@@ -125,7 +127,7 @@ Interestingly the [Julia][julia] approach for iterating over both index and valu
 Splitting and joining is similar to Python except Julia isn't really object oriented so function name comes first as Julia uses multiple dispatch to decide which implementation to call. 
 
     julia> b = split("This is a string")
-    4-element Array{SubString{ASCIIString},1}:
+    4-element Array{SubString{String},1}:
      "This"  
      "is"    
      "a"     
@@ -160,7 +162,7 @@ The traditional imperative way transforming on list to a new one is:
      "peo"
      "lov"
 
-Quite similar to the Python example except Julia lists havea type so you have to specify that it is a String. You can create a python like array but then you need to specify that it takes any element:
+Quite similar to the Python example except Julia lists have a type so you have to specify that it is a String. You can create a python like array but then you need to specify that it takes any element:
 
     julia> M = Any[]
     0-element Array{Any,1}
@@ -177,7 +179,7 @@ With list comperhensions you can do this more elegantly with:
 However for [Julia][julia] it would be more idiomatic to express what you are doing. E.g. in this case we are mapping from one array to another which we can express like this:
 
     julia> M = map(word ->  word[1:3], L)
-    4-element Array{ASCIIString,1}:
+    4-element Array{String,1}:
      "Jul"
      "mak"
      "peo"
@@ -185,17 +187,13 @@ However for [Julia][julia] it would be more idiomatic to express what you are do
 
 If we want to filter a list by producing a new list containg only the elements with length greater than 5 we would do it like this:
 
-    for word in L
-      if length(word) > 5
-        push!(M, word)
-      end
-    end
+    [word for word in L if length(word) > 5]
     
-With Python we could solve this with a list comperhension however with Julia you have to explicity state that you are filtering:
+This is using a conditional array comperhension. However you can also use the `filter` function.
 
     M = filter(word -> length(word) > 5, L)
     
-The reason for this is that Julia has bultin support for multidimensional arrays, given that it was designed for scientific computing where this is important. There is no natural way to filter a multi dimensional array, as e.g. every row in a matrix needs to have the same number of columns.
+When dealing with multidemensional arrays there is not obvious way of doing this. You would likely take an imperative approach.
   
 [llvmref]: http://llvm.org/releases/2.6/docs/LangRef.html
 [insertelem]: http://llvm.org/releases/2.6/docs/LangRef.html#i_insertelement

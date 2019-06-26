@@ -1,11 +1,12 @@
 ---
 title: "Dynamic Typing as a Paradigm"
 description: "Dynamic languages could be better understood by considering dynamic typing as a way of programming."
-date: "2014-12-08"
+date: "2019-06-22"
 categories: 
     - "Dynamic Typing"
     - "Static Typing"
     - "Programming"
+    - "Julia"
 ---
 
 The Dynamic vs Static Typing debate has been going on for decades and never seems to end. While I like both static and dynamic programming languages I probably have a slight preference for dynamic typing. However I feel of the two types of languages I feel the dynamic ones are the ones that are most profoundly misunderstood. The popular blog post [Dynamic languages are static languages][dynisstatic] illustrates the misunderstanding very well.
@@ -47,26 +48,32 @@ This might sound laughable by todays standards, but although it is perhaps and e
 
 When writing graphics code it would be tempting to make everything into types in much the same manner as Pascal. One might argue that a point in 2D space should be different from a point in 3D space or even 4D space. We could write types like this (julia syntax):
 
-    type Point2D
-      x :: Float64
-      y :: Float64
-    end
-    
-    type Point3D
-      x :: Float64
-      y :: Float64
-      z :: Float64
-    end
-    
+```julia
+struct Point2D
+  x :: Float64
+  y :: Float64
+end
+
+struct Point3D
+  x :: Float64
+  y :: Float64
+  z :: Float64
+end
+```
+
 We could then create array of 10 point objects like this:
 
-    points2d = Array(Poin2D, 10)
-    points3d = Array(Point3D, 10)
-    
+```julia
+points2d = fill(Point2D(0, 0), 10)
+points3d = fill(Point3D(0, 0, 0), 10)
+```
+
 Perhaps we want to perform rotation or translation of all these points with a matrix. The problem that now arises is much the same as with Pascal. If we define a function which transforms an array of points using a matrix:
 
-    function transform(matrix :: Matrix, points :: Vector{Point2D})
-    
+```julia
+function transform(matrix :: Matrix, points :: Vector{Point2D})
+```
+
 Then this can not be reused for an array of `Point3D` points. Thus we get pascal style code duplication. Mathematically speaking matrix muliplication is a generic operation which we can write an algorithm for which perform the operation a matrix of any size. If we do not treat our points as types like `Point2D` and `Point3D` but just as arrays of numbers then we can transform an array of 10 2D points by just treating it as a matrix with 2 rows and 10 columns. `Point3D` would be a matrix of 3 rows and 10 columns. This allows us to reuse standard fast matrix multiplication functions.
 
 OpenGL is a good example of this practice. There are no types for matricies or vectors. They are just arrays of numbers. This allows us to reuse OpenGL function for many cases.
