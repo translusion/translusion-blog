@@ -74,16 +74,28 @@ Just put your AVR chip down on the breadboard. Look at your AVR-ISP500 manual an
 </ol>
 The Olimex AVR-ISP500 manual shows pictures of the connectors to help you identify where the individual pins are. I am using narrow cable with 6 pins on the right side on the image below.
 
-<a href="http://pluggerogkontakter.files.wordpress.com/2013/03/img_0553.jpg"><img class="size-medium wp-image-4 aligncenter" src="http://pluggerogkontakter.files.wordpress.com/2013/03/img_0553.jpg?w=300" alt="IMG_0553" width="300" height="218" /></a>
+![programmer](http://pluggerogkontakter.files.wordpress.com/2013/03/img_0553.jpg?w=300)
 
 If you pull out the cable it is easy to compare with the Olimex manual.
 
-<caption id="attachment_5" align="aligncenter" width="213"><a href="http://pluggerogkontakter.files.wordpress.com/2013/03/img_0559.jpg"><img class="size-medium wp-image-5" src="http://pluggerogkontakter.files.wordpress.com/2013/03/img_0559.jpg?w=213" alt="AVR-ISP500 USB based AVR programmer from Olimex, implementing STK500v2 protocol" width="213" height="300" /></a> AVR-ISP500 USB based AVR programmer from Olimex, implementing STK500v2 protocol</caption>
+{{< figure 
+    src="http://pluggerogkontakter.files.wordpress.com/2013/03/img_0559.jpg?w=213"
+    class="desc"
+    caption="AVR-ISP500 USB based AVR programmer from Olimex, implementing STK500v2 protocol" 
+>}}
 
 A thing to note about the cable is the pins get turn upside down. So if you turn the programmer so that <strong>pin 1 is at the lower left</strong> as shown in the manual, it will be the <strong>upper left</strong> at the end of the cable. In the picture below I have turned the plug so that the the <strong>red</strong> cable is actually <strong>pin 2</strong> and the <strong>yellow</strong> cable below is<strong> pin 1</strong>. If in doubt measure resistance with your multi meter at both ends, to make sure you are not mixing up which pin is which. If you guessed right, there should be approximatly zero resistance measured.
 
-<caption id="attachment_6" align="aligncenter" width="300"><a href="http://pluggerogkontakter.files.wordpress.com/2013/03/img_0549.jpg"><img class="size-medium wp-image-6 " src="http://pluggerogkontakter.files.wordpress.com/2013/03/img_0549.jpg?w=300" alt="IMG_0549" width="300" height="231" /></a> Yellow: MISO, Red: Vcc, Orange: SCK, Blue: MOSI, Green: Reset, White: GND</caption>
+{{< figure 
+    src="http://pluggerogkontakter.files.wordpress.com/2013/03/img_0549.jpg?w=300"
+    class="desc"
+    caption="Yellow: MISO, Red: Vcc, Orange: SCK, Blue: MOSI, Green: Reset, White: GND" 
+>}}
 
 Below you can see how I connected all the pins from the programmer to the chip. This is the simple project from chapter 1 of the Evil Genius book. But the important thing here is how the cables are connected from the programmer to the ATtiny13 chip, because that is all you need. You do not need the LEDs, buttons, resitors and capacitor I put in.
 
-<caption id="attachment_7" align="aligncenter" width="300"><a href="http://pluggerogkontakter.files.wordpress.com/2013/03/img_0560.jpg"><img class=" wp-image-7 " src="http://pluggerogkontakter.files.wordpress.com/2013/03/img_0560.jpg?w=300" alt="IMG_0560" width="300" height="176" /></a> Simple setup from Evil Genius book. Allows us to turn on toggle to LEDs with push buttons.</caption>
+{{< figure 
+    src="http://pluggerogkontakter.files.wordpress.com/2013/03/img_0560.jpg?w=300"
+    class="desc"
+    caption="Simple setup from Evil Genius book. Allows us to turn on toggle to LEDs with push buttons." 
+>}}
