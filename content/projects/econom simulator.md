@@ -1,6 +1,7 @@
 ---
 title: "Economics Simulator of Comparative Advantage, Trade and Production"
 description: "A simulation of how economies grow"
+date: "2014-01-01"
 katex: true
 ---
 
