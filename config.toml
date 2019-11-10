@@ -104,6 +104,12 @@ tag = "tags"
     url = "https://github.com/ordovician"
 
 [[menu.main]]
+    name = "Papers"
+    weight = 330
+    identifier = "papers"
+    url = "https://nextjournal.com/erik-engheim"
+
+[[menu.main]]
     name = "Home"
     identifier = "home"
     url = "/"
