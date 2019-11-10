@@ -76,7 +76,7 @@ twitter = "erikengheim"
 youtube = "UC66PjfTxpg19YCGPUOLzyOg"
 
 [params.comments]
-enable = false
+enable = true
 
 
 
