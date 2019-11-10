@@ -5,6 +5,7 @@ date: "2014-12-30"
 categories: 
     - "Video Games"
     - "Entertainment"
+    - "Dont Starve"
 ---
 
 I don't play much computer games anymore. Family and small kids limits time, but equally important I simply don't find them as fun anymore as I once did. Not long ago I got a Playstation 4 and I was eager to look at the beautiful graphics which could now be rendered. I got a bunch of third or first person shooters which all looked beautiful and amazing. But eventually they all ended up boring me. A problem is that most of the block buster games today are extremely bland. They don't dare doing anything out of the ordinary and so they end up being very similar and they lack a personal touch or soul from lack of a better word. I've tried a few Indie games over the last few years such as [Machinarium][machin], Limbo, Minecraft and [CounterSpy][counterspy]. Lately I've played [Vaiant Hearts][valiant] which while not an Indie game feels a lot like one. Common for all these games is that they do not have mind blowing 3D graphics and animation. Yet they have a unique expression and feel which makes it feel more like what it was like playing games as a child. 

@@ -5,6 +5,7 @@ date: "2015-11-27"
 categories:
     - "Video Games"
     - "Entertainment"
+    - "Dont Starve"
 ---
 
 Almost a year ago I wrote about playing Don’t Starve. I’ve had long breaks from it but had a burst playing it again a lot lately.
