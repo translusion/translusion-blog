@@ -1,7 +1,6 @@
 ---
 title: "Digital and Analog Fluidics Computers"
 date: 2019-12-29T20:17:40+01:00
-draft: true
 categories: 
     - "Fluidics"
 ---
