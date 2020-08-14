@@ -1,0 +1,18 @@
+{{ partial "header" . }}
+
+<div class="content container">
+  <section id="main">
+    <h1>Medium Stories</h1>
+    <p>Over the years I have written a number of articles on a variety of subjects on 
+       <a href="https://medium.com">medium.com</a>. However Medium does not offer a good way of seeing all the stories a particular author has written. So this is page is to give an overview of stories I have written on different topics. </p>
+
+  </section>
+
+  <div class="posts">
+    {{ range .Data.Pages }}
+        {{ .Render "summary"}}
+    {{ end }}
+  </div>
+</div>
+
+{{ partial "footer" . }}
