@@ -22,7 +22,7 @@ enableEmoji = false
 defaultContentLanguage = "en"
 
 [params.info]
-description = "Erik Engheim's Projects and Articles"
+description = "Erik Engheim's Projects and Stories"
 title404 = "Nothing's here!"
 
 [params.assets]
@@ -120,11 +120,11 @@ tag = "tags"
     url = "/posts/"
     weight = 10
 
-[[menu.main]]
-    name = "Articles"
-    identifier = "articles"
-    url = "/articles/"
-    weight = 15
+# [[menu.main]]
+#     name = "Articles"
+#     identifier = "articles"
+#     url = "/articles/"
+#     weight = 15
 
 [[menu.main]]
     name = "Stories"

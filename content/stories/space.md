@@ -8,9 +8,32 @@ I have written a number of space themed stories. I am trying to appeal to those 
 
 I also have a number of articles on colonizing Venus, as that is a planet closer to Earth than Mars, but very seldom discussed in the media. Space colonization opens up for the discussion of a wide variety of topics: How will people eat, how will they societies be organized politically. How will they get power, produce things etc.
 
+## Rocketry
+- [Geek Guide to Rocket Engines](https://medium.com/@Jernfrost/geek-guide-to-rocket-engines-70ea91bf5971)
+- [Why Can Sugar be Used as Rocket Fuel?](https://medium.com/@Jernfrost/why-can-sugar-be-used-as-rocket-fuel-a68678677ebc)
+- [How to Chose a Rocket Engine and Propellant](https://medium.com/@Jernfrost/how-to-chose-a-rocket-engine-and-propellant-d2f25432951e)
+- [Gas Mileage and Horsepower On a Space Rocket](https://medium.com/@Jernfrost/gas-mileage-and-horsepower-on-a-space-rocket-1a0181696d78)
+- [Most Interesting Rocket Engines](https://medium.com/@Jernfrost/most-interesting-rocket-engines-93b01af7ae4c)
+- [Why a Nuclear Powered Rocket is a Bad Idea](https://medium.com/@Jernfrost/why-a-nuclear-powered-rocket-is-a-bad-idea-52b51f4d2c9c)
+- [Norwegian Reusable Rocket Concept Rivaling SpaceX?](https://medium.com/@Jernfrost/norwegian-reusable-rocket-concept-rivaling-spacex-e83605de4408)
+- [Myths Smashed By The Falcon Heavy Launch](https://medium.com/@Jernfrost/myths-smashed-by-the-falcon-heavy-launch-213ecd4458e5)
+
+
 ## Venus Colonization
 
 - [Why Colonize Venus Instead of Mars](https://medium.com/@Jernfrost/why-colonize-venus-instead-of-mars-c490d14c0531)
 - [Transport and Logistics on a Venus Cloud Colony](https://medium.com/@Jernfrost/transport-and-logistics-on-a-venus-cloud-colony-62e33e025f23)
 - [Economics of Venus Colonization](https://medium.com/@Jernfrost/economics-of-venus-colonization-827f221bbac6)
 - [Lifting Gases in a Venus Aerostat Habitat](https://medium.com/@Jernfrost/lifting-gases-in-a-venus-aerostat-habitat-69aae6fb990)
+- [Making a Non-Electric Rover For the Venus Planetary Surface](https://medium.com/@Jernfrost/making-a-non-electric-rover-for-the-venus-planetary-surface-25e01e5ddbab)
+
+## Technology and Manufacturing on Space Colonies
+
+- [Building a Non-Electrical Economy on Other Planets](https://medium.com/@Jernfrost/building-a-non-electrical-economy-on-other-planets-805af5a3e7cf)
+- [How Would You Build a 3D Printer Operating Without Electricity?](https://medium.com/@Jernfrost/how-would-you-build-a-3d-printer-operating-without-electricity-3edc23f1b57a)
+- [Making a Non-Electric Rover For the Venus Planetary Surface](https://medium.com/@Jernfrost/making-a-non-electric-rover-for-the-venus-planetary-surface-25e01e5ddbab)
+
+## Political and Economic Systems of Space Colonies
+
+- [What Would the Political System of a Mars, Moon or Venus Society Be?](https://medium.com/@Jernfrost/a-non-american-perspective-on-a-mars-society-833f7ff76ece)
+- [A Space colony as a Kibbutz](https://medium.com/@Jernfrost/a-space-colony-as-a-kibbutz-3d25640350d8)

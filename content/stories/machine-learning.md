@@ -10,9 +10,12 @@ I also have a number of articles on colonizing Venus, as that is a planet closer
 
 ## Flux Machine Learning Library
 
-- [Gentle Introduction to Machine Learning](https://medium.com/@Jernfrost/machine-learning-for-dummies-in-julia-6cd4d2e71a46)
-- [Implementation of a Modern Machine Learning Library](https://medium.com/@Jernfrost/implementation-of-a-modern-machine-learning-library-3596badf3be)
-- [Recognize Handwriting Using an Artificial Neural Network](Recognize Handwriting Using an Artificial Neural Network)
+- [Gentle Introduction to Machine Learning](https://medium.com/@Jernfrost/machine-learning-for-dummies-in-julia-6cd4d2e71a46). A story focused on understanding what machine learning is actually about in general. We cover important topics like:
+	- Automatic Differentiation
+	- What is a Gradient and why are they important to machine learning.
+	- The Gradient Descent method. 
+- [Implementation of a Modern Machine Learning Library](https://medium.com/@Jernfrost/implementation-of-a-modern-machine-learning-library-3596badf3be). We look under the hood of Flux, to see how it is implemented. Flux is a machine learning library based on automatic differentiation of any regular Julia function. This is the modern approach to ML.
+- [Recognize Handwriting Using an Artificial Neural Network](https://medium.com/better-programming/handwriting-recognition-using-an-artificial-neural-network-78060d2a7963). Introduces standard neural network concepts such as perceptrons, layers and activation functions using the Flux ML library.
 - [Working with and emulating References in Julia](https://medium.com/@Jernfrost/working-with-and-emulating-references-in-julia-e02c1cae5826)
 
 ## Mathematics Relevant to Machine Learning
