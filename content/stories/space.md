@@ -1,5 +1,5 @@
 ---
-weight: "10"
+weight: "50"
 title: "Space"
 description: "Space Exploration and Colonization"
 ---
@@ -20,6 +20,7 @@ I also have a number of articles on colonizing Venus, as that is a planet closer
 
 
 ## Venus Colonization
+These articles are about why one might want to colonize Venus. What sort of benefits there are to colonize Venus over other planets as well as a discussion of all the various technical challenges and solutions. E.g. the planetary surface of Venus is so hot that one has to built colonies in the clouds.
 
 - [Why Colonize Venus Instead of Mars](https://medium.com/@Jernfrost/why-colonize-venus-instead-of-mars-c490d14c0531)
 - [Transport and Logistics on a Venus Cloud Colony](https://medium.com/@Jernfrost/transport-and-logistics-on-a-venus-cloud-colony-62e33e025f23)
@@ -28,12 +29,14 @@ I also have a number of articles on colonizing Venus, as that is a planet closer
 - [Making a Non-Electric Rover For the Venus Planetary Surface](https://medium.com/@Jernfrost/making-a-non-electric-rover-for-the-venus-planetary-surface-25e01e5ddbab)
 
 ## Technology and Manufacturing on Space Colonies
+Outside of Earth the conditions can be so extreme that various technological solutions would have to be radically rethought. E.g. on the Venus planetary surface it is generally too hot to operate electronics. These articles explore exotic alternative technological solutions.
 
 - [Building a Non-Electrical Economy on Other Planets](https://medium.com/@Jernfrost/building-a-non-electrical-economy-on-other-planets-805af5a3e7cf)
 - [How Would You Build a 3D Printer Operating Without Electricity?](https://medium.com/@Jernfrost/how-would-you-build-a-3d-printer-operating-without-electricity-3edc23f1b57a)
 - [Making a Non-Electric Rover For the Venus Planetary Surface](https://medium.com/@Jernfrost/making-a-non-electric-rover-for-the-venus-planetary-surface-25e01e5ddbab)
 
 ## Political and Economic Systems of Space Colonies
+What political and economic system would a space colony have? Given the living conditions are radically different from Earth, not every political and economic arrangement will work equally well.
 
 - [What Would the Political System of a Mars, Moon or Venus Society Be?](https://medium.com/@Jernfrost/a-non-american-perspective-on-a-mars-society-833f7ff76ece)
 - [A Space colony as a Kibbutz](https://medium.com/@Jernfrost/a-space-colony-as-a-kibbutz-3d25640350d8)
