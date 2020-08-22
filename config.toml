@@ -149,6 +149,12 @@ tag = "tags"
     identifier = "projects"
     url = "/projects/"
     weight = 50
+    
+[[menu.main]]
+    name = "Favorites"
+    identifier = "favorites"
+    url = "/favorites/"
+    weight = 600
 
 [blackfriday]
 hrefTargetBlank = true

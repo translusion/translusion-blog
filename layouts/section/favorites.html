@@ -1,0 +1,17 @@
+{{ partial "header" . }}
+
+<div class="content container">
+  <section id="main">
+    <h1>Favorites</h1>
+    <p>A collection of my favorites of mine within different categories.</p>
+
+  </section>
+
+  <div class="posts">
+    {{ range .Data.Pages }}
+        {{ .Render "summary"}}
+    {{ end }}
+  </div>
+</div>
+
+{{ partial "footer" . }}
