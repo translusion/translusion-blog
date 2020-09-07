@@ -20,6 +20,7 @@ Machine learning is basically a ton of matrix operations.
 - [Recognize Handwriting Using an Artificial Neural Network](https://medium.com/better-programming/handwriting-recognition-using-an-artificial-neural-network-78060d2a7963). Introduces standard neural network concepts such as perceptrons, layers and activation functions using the Flux ML library.
 - [Working with and emulating References in Julia](https://medium.com/@Jernfrost/working-with-and-emulating-references-in-julia-e02c1cae5826)
 - [Working with Data in Tables for Machine Learning](https://medium.com/@Jernfrost/working-with-data-in-tables-for-machine-learning-6d7e1bb5bcd7). A lot of the data you are going to feed into your Machine Learning algorithms will come in the shape of tables or data frames. Hence to do machine learning it is useful to have a good handle on how to manipulate data in tables, as well as visualizing that data with a plotting library.
+- [Flux vs TensorFlow Misconceptions](https://medium.com/@Jernfrost/flux-vs-tensorflow-misconceptions-2737a8b464fb) People comming from TensorFlow and PyTorch often get the immediate impression that Flux is missing a lot of functionality. Here I try to explain how that is a misconception.
 
 ## Mathematics Relevant to Machine Learning
 

@@ -35,6 +35,11 @@ Outside of Earth the conditions can be so extreme that various technological sol
 - [How Would You Build a 3D Printer Operating Without Electricity?](https://medium.com/@Jernfrost/how-would-you-build-a-3d-printer-operating-without-electricity-3edc23f1b57a)
 - [Making a Non-Electric Rover For the Venus Planetary Surface](https://medium.com/@Jernfrost/making-a-non-electric-rover-for-the-venus-planetary-surface-25e01e5ddbab)
 
+## Energy Production
+How do you produce and store energy on other planets?
+
+- [Energy Production and Storage on Other Planets](https://medium.com/@Jernfrost/energy-production-and-storage-on-other-planets-23ac8fe40892)
+
 ## Political and Economic Systems of Space Colonies
 What political and economic system would a space colony have? Given the living conditions are radically different from Earth, not every political and economic arrangement will work equally well.
 
