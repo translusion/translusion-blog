@@ -27,3 +27,4 @@ Machine learning is basically a ton of matrix operations.
 - [The Core Idea of Linear Algebra](https://medium.com/@Jernfrost/the-core-idea-of-linear-algebra-7405863d8c1d)
 - [Why Does Matrix Multiplication Work the Way it Does?](https://medium.com/@Jernfrost/why-does-matrix-multiplication-work-the-way-it-does-7a8ed9739254)
 - [Functions in Mathematics and Programming](https://medium.com/@Jernfrost/functions-in-mathematics-and-programming-9741cbeb8d4b)
+- [Reflections on Math, Tensors and Programming](https://nextjournal.com/erik-engheim/reflections-tensors)
