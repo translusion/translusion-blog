@@ -27,6 +27,7 @@ These articles are about why one might want to colonize Venus. What sort of bene
 - [Economics of Venus Colonization](https://medium.com/@Jernfrost/economics-of-venus-colonization-827f221bbac6)
 - [Lifting Gases in a Venus Aerostat Habitat](https://medium.com/@Jernfrost/lifting-gases-in-a-venus-aerostat-habitat-69aae6fb990)
 - [Making a Non-Electric Rover For the Venus Planetary Surface](https://medium.com/@Jernfrost/making-a-non-electric-rover-for-the-venus-planetary-surface-25e01e5ddbab)
+- [Metal Extraction From The Venus Planetary Surface](https://medium.com/@Jernfrost/geology-and-metal-extraction-from-venus-planetary-surface-5dc363f903f6)
 
 ## Technology and Manufacturing on Space Colonies
 Outside of Earth the conditions can be so extreme that various technological solutions would have to be radically rethought. E.g. on the Venus planetary surface it is generally too hot to operate electronics. These articles explore exotic alternative technological solutions.
