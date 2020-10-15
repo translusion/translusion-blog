@@ -20,7 +20,8 @@ Here are things which while important, we must be willing to tolerate to achieve
 ## Nuclear Power
 - [How Safe is Nuclear Power?](https://medium.com/@Jernfrost/nuclear-safety-70099bd21a7b). Claims that Chernobyl was not that big of a deal is frequently pushed. What are we to believe?
 - [Rethinking Nuclear Power](https://medium.com/@Jernfrost/rethinking-nuclear-power-44a675890cf4). My reflections on reconsidering some of my past negative views of nuclear energy. A discussion of what part Nuclear power can play with renewable energy.
-
+- [Why Small Modular Reactors?](https://medium.com/@Jernfrost/why-small-modular-reactors-85743f766dc6)
+- [Different Small Modular Reactor Designs](https://medium.com/@Jernfrost/different-small-modular-reactor-designs-1955e574c36) We look at the pros and cons of some different SMR reactors.
 
 ## Hydrogen Economy
 Discussion of use hydrogen fuel cell cars as well as using hydrogen in the economy at large.

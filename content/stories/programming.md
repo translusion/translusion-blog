@@ -32,7 +32,13 @@ Julia is a relatively new programming language, so these stories explore various
 ## Julia Programming
 - [Knights, Pikemen, Archers and Multiple Dispatch](https://levelup.gitconnected.com/knights-pikemen-archers-and-multiple-dispatch-69aaee2c4141). A fun introduction to the Julia programming language.
 - [Types in C/C++ and Julia ](https://medium.com/@Jernfrost/types-in-c-c-and-julia-ce0fcbe0dec6). There are superficial similarities between C/C++ and Julia type system. To a novice it can look as if Julia is statically typed just like C/C++. I explain in more detail while type annotations doesn't necessarily make a language statically typed.
+- [Calcutron-33: A Decimal Based RISC Microprocessor](https://medium.com/@Jernfrost/decimal-risc-cpu-a13968922812) A variant of the Little Man Computer, which follows a more RISC like design.
+- [Example Programs for Calcutron-33](https://medium.com/@Jernfrost/minimal-programs-f3dbd8bc1d4a)
 
 ## Tools
 - [Why I Don’t Like IDEs](https://medium.com/@Jernfrost/why-i-dont-like-ides-6654adb179cb). A discussion of what I think are the problems with integrated development environments in software development, and an explanation of the benefits of the alternatives.
 - [The Many Advantages of Dynamic Languages](https://medium.com/@Jernfrost/the-many-advantages-of-dynamic-languages-267d08f4c7). An explanation of how the language becomes your tool when using a dynamic language for software development.
+
+## Assembly
+- [Learn Assembly Programming Fun Way](https://medium.com/@Jernfrost/microprocessor-games-ad19e4aa2019)
+- [Example Programs for Calcutron-33](https://medium.com/@Jernfrost/minimal-programs-f3dbd8bc1d4a)
